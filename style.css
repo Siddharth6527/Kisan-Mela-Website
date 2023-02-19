@@ -11,6 +11,15 @@ a {
   letter-spacing: 0.2px;
 }
 
+/* .container {
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  overflow: hidden;
+} */
+
 h1 {
   text-shadow: 2px 0px 4px grey;
   font-size: 30px;
@@ -57,7 +66,7 @@ h1::first-letter {
 
 .sub-heading {
   /* margin-top: -20px; */
-  font-size: 13px;
+  font-size: 18px;
   line-height: 0.3;
   font-weight: bold;
   text-transform: uppercase;
@@ -69,7 +78,7 @@ h1::first-letter {
   margin-bottom: 0;
   /* text-decoration: underline; */
   letter-spacing: 4px;
-  text-shadow: 2px 4px 4px grey;
+  /* text-shadow: 2px 4px 4px grey; */
   color: rgba(0, 0, 0, 0.788);
 }
 
@@ -120,7 +129,7 @@ h1::first-letter {
 
 .policies-heading {
   color: rgba(0, 0, 0, 0.849);
-  font-size: 20px;
+  font-size: 26px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-transform: uppercase;
   text-align: center;
@@ -131,30 +140,30 @@ h1::first-letter {
   padding: 10px 20px;
   margin-bottom: 5px;
   text-decoration: underline;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   text-shadow: 2px 4px 4px grey;
 }
 
 .policies-heading::first-letter {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .address {
   display: inline-block;
   letter-spacing: 1px;
-  margin-left: 350px;
+  margin-left: 500px;
   font-weight: bold;
   font-family: sans-serif;
   margin-top: -300px;
   margin-bottom: 0;
 }
 
-.phone-no {
+/* .phone-no {
   margin-top: 20px;
   font-size: 17px;
   margin-left: 1400px;
   padding-bottom: 0;
-}
+} */
 
 /* #01a89e */
 
@@ -317,3 +326,34 @@ i {
 }
 
 /* rgba(0, 0, 0, 0.849); */
+
+.both-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cot-logo {
+  width: 230px;
+  margin-top: -140px;
+  padding-right: 30px;
+}
+
+.college-name {
+  margin-left: 500px;
+  font-size: 35px;
+  letter-spacing: 0.8px;
+}
+
+.hindi {
+  margin-left: 500px;
+  font-size: 35px;
+  letter-spacing: 0.8px;
+}
+/* 
+.policy-1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex: 0 0 auto;
+} */
