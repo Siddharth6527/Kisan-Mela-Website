@@ -16,15 +16,6 @@ a {
   font-size: 2.5rem;
 }
 
-/* .container {
-  width: 100%;  
-  min-height: 100vh;
-  padding-left: 8%;
-  padding-right: 8%;
-  box-sizing: border-box;
-  overflow: hidden;
-} */
-
 h1 {
   text-shadow: 0.2rem 0rem 0.4rem grey;
   font-size: 3rem;
@@ -49,17 +40,12 @@ h1 {
 
 header {
   background-color: lightyellow;
-  text-shadow: 0.2rem 0.1rem 0.4rem grey;
+  text-shadow: 0.1rem 0.1rem 0.8rem grey;
   margin-bottom: -1rem;
-  /* margin: 0rem 0rem; */
-  /* background-color: brown; */
   border-top: 3rem solid rgba(165, 42, 42, 0.76);
-  /* border-bottom:30rem solid lightblue */
 }
 
 .logo {
-  /* margin-top: -500rem;
-  margin-left: 80rem; */
   width: 28rem;
   margin-top: -15rem;
   margin-left: 2rem;
@@ -70,8 +56,6 @@ h1::first-letter {
 }
 
 .sub-heading {
-  /* margin-top: -20rem; */
-  /* font-family: "Oswald", sans-serif; */
   font-size: 1.8rem;
   line-height: 0.3;
   font-weight: bold;
@@ -82,9 +66,7 @@ h1::first-letter {
   margin-top: 0;
   margin-left: rem;
   margin-bottom: -4rem;
-  /* text-decoration: underline; */
   letter-spacing: 0.4rem;
-  /* text-shadow: 2rem 4rem 4rem grey; */
   color: rgba(0, 0, 0, 0.788);
 }
 
@@ -95,9 +77,6 @@ h1::first-letter {
 
 #slider {
   overflow: hidden;
-
-  /* width: 500rem;
-  height: 300rem; */
 }
 
 #slider figure {
@@ -141,8 +120,6 @@ h1::first-letter {
   text-transform: uppercase;
   text-align: center;
   background-color: #01a89dab;
-  /* border-radius: 25rem; */
-
   margin: 0;
   padding-top: -0.2rem;
   padding-bottom: 0.2rem;
@@ -167,38 +144,13 @@ h1::first-letter {
   margin-bottom: 0;
 }
 
-/* .phone-no {
-  margin-top: 20rem;
-  font-size: 17rem;
-  margin-left: 1400rem;
-  padding-bottom: 0;
-} */
-
-/* #01a89e */
-
-/* .policy-4 {
-  display: inline-block;
-  padding-top: -100rem;
-  margin-left: 1000rem;
-  margin-top: -600rem;
-} */
-
-/* .policy-6 {
-  display: inline-block;
-  padding-top: -100rem;
-  margin-left: 1000rem;
-  margin-top: -600rem;
-} */
-
 footer {
   color: white;
-  background-color: rgba(0, 0, 0, 0.849);
+  background-color: black;
   letter-spacing: 0.15rem;
   padding: 10rem 5rem;
   padding-top: 5rem;
   margin-bottom: auto;
-
-  /* margin-bottom: -50rem; */
   padding-bottom: 30rem;
 }
 
@@ -239,8 +191,6 @@ i {
   margin-top: -20rem;
 }
 
-/* rgba(0, 0, 0, 0.849); */
-
 .both-logo {
   display: flex;
   align-items: center;
@@ -266,71 +216,76 @@ i {
 }
 
 /* responsive code */
-@media (max-width: 998px) {
+@media (max-width: 99.8rem) {
   html {
     font-size: 55%;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 76.8rem) {
   html {
     font-size: 45%;
   }
 }
 
-/* .my-details {
-} */
-
 /* final styling */
 
 .policy-container {
   background-color: lightyellow;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
   display: flex;
   align-items: flex-start;
   flex-flow: column;
-  gap: 50px;
-  margin: 30px 0;
-  padding: 0 20px;
+  gap: 5rem;
+  margin: 3rem 0;
+  padding: 0 2rem;
   margin-top: 0;
-  padding-top: 20px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.15rem;
 }
 
 .policy-row {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  border: 8px solid brown;
-  border-radius: 25px;
-  padding: 50px 30px;
+  border: 0.8rem solid brown;
+  border-radius: 2.5rem;
+  padding: 5rem 3rem;
 }
 
 .images {
-  width: 550px;
+  width: 55rem;
 }
 
 .policy-1 {
-  margin-left: 50px;
-  margin-right: 50px;
-  padding-right: 300px;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding-right: 30rem;
 }
 
 .policy-2 {
-  /* margin-left: 500px; */
-  margin-right: 50px;
+  margin-right: 5rem;
 }
 
 .policy-1 h3 {
   color: red;
+  font-size: 3rem;
 }
 
 .policy-2 h3 {
   color: green;
+  font-size: 3rem;
+}
+
+.policy-container p {
+  font-size: 2.3rem;
 }
 
 #last-img {
-  height: 320px;
+  height: 32rem;
 }
 
 h3 {
@@ -339,6 +294,50 @@ h3 {
 }
 
 #address-id {
-  font-size: 15px;
-  margin-top: -150px;
+  font-size: 1.5rem;
+  margin-top: -15rem;
+}
+
+.container {
+  align-items: center;
+  width: fit-content;
+  /* width: 1200px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* footer styling */
+
+.footer-flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: column;
+}
+
+.insta-logo {
+  width: 4rem;
+}
+
+.footer-link {
+  color: white;
+  background-color: black;
+}
+
+.my-name-header {
+  font-size: 3rem;
+}
+
+.my-name {
+  font-size: 2.5rem;
+}
+
+.related-links {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.related-links-heading {
+  margin-left: -3.5rem;
 }
