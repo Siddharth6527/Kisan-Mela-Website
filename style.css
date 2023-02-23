@@ -64,7 +64,7 @@ h1::first-letter {
   padding: 0.8rem 1rem;
   text-align: center;
   margin-top: 0;
-  margin-left: rem;
+  /* margin-left: rem; */
   margin-bottom: -4rem;
   letter-spacing: 0.4rem;
   color: rgba(0, 0, 0, 0.788);
@@ -215,18 +215,26 @@ i {
   letter-spacing: 0.08rem;
 }
 
+/* 1rem =10px */
+
 /* responsive code */
-@media (max-width: 99.8rem) {
+/* @media (max-width: 99.8rem) {
   html {
     font-size: 55%;
   }
-}
+  h1 {
+    font-size: 30%;
+  }
+} */
 
-@media (max-width: 76.8rem) {
+/* @media (max-width: 76.8rem) {
   html {
     font-size: 45%;
   }
-}
+  h1 {
+    font-size: 20%;
+  }
+} */
 
 /* final styling */
 
@@ -295,7 +303,7 @@ h3 {
 
 #address-id {
   font-size: 1.5rem;
-  margin-top: -15rem;
+  margin-top: 0;
 }
 
 .container {
@@ -340,4 +348,21 @@ h3 {
 
 .related-links-heading {
   margin-left: -3.5rem;
+}
+
+/* FINAL STYLING OF Header  */
+
+.header-container {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin-top: 18rem;
+}
+
+.main-header-container {
+  display: flex;
+  flex-flow: column;
+  gap: 2rem;
+  margin-top: -18rem;
+  margin-left: -50rem;
 }
