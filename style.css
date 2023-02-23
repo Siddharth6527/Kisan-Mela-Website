@@ -258,7 +258,7 @@ i {
 .policy-row {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   border: 0.8rem solid brown;
   border-radius: 2.5rem;
   padding: 5rem 3rem;
